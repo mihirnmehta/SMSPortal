@@ -1,0 +1,12 @@
+﻿Command to generate WCF Proxy: 
+
+svcutil /language:cs /out:c:\Proxy.cs http://localhost:34592/OASyncService.svc
+
+set PATH=%PATH%;<path you want>
+
+
+Path: 
+
+C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\Bin (For .NET Framework 4.0)
+
+C:\Program Files (x86)\Microsoft SDKs\Windows\v8.0A\bin\NETFX 4.0 Tools (For .NET Framework 4.5)

@@ -1,0 +1,176 @@
+﻿<error errorId="5ca2ee3b-98c8-4df8-a3bb-6e29114a7c6a" application="/" host="MIHIRMEHTA" type="System.ArgumentException" message="The parameters dictionary contains a null entry for parameter 'AdminTopLevelReport' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.FileStreamResult GetFinanceReportForExport(System.String, System.String, Int32, System.Nullable`1[System.Int32])' in 'SMSAdminPortal.Controllers.ReportController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&#xD;&#xA;Parameter name: parameters" source="System.Web.Mvc" detail="System.ArgumentException: The parameters dictionary contains a null entry for parameter 'AdminTopLevelReport' of non-nullable type 'System.Int32' for method 'System.Web.Mvc.FileStreamResult GetFinanceReportForExport(System.String, System.String, Int32, System.Nullable`1[System.Int32])' in 'SMSAdminPortal.Controllers.ReportController'. An optional parameter must be a reference type, a nullable type, or be declared as an optional parameter.&#xD;&#xA;Parameter name: parameters&#xD;&#xA;   at System.Web.Mvc.ActionDescriptor.ExtractParameterFromDictionary(ParameterInfo parameterInfo, IDictionary`2 parameters, MethodInfo methodInfo)&#xD;&#xA;   at System.Web.Mvc.ReflectedActionDescriptor.&lt;&gt;c__DisplayClass1.&lt;Execute&gt;b__0(ParameterInfo parameterInfo)&#xD;&#xA;   at System.Linq.Enumerable.WhereSelectArrayIterator`2.MoveNext()&#xD;&#xA;   at System.Linq.Buffer`1..ctor(IEnumerable`1 source)&#xD;&#xA;   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)&#xD;&#xA;   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass15.&lt;InvokeActionMethodWithFilters&gt;b__12()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass15.&lt;&gt;c__DisplayClass17.&lt;InvokeActionMethodWithFilters&gt;b__14()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)&#xD;&#xA;   at System.Web.Mvc.Controller.ExecuteCore()&#xD;&#xA;   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClass6.&lt;&gt;c__DisplayClassb.&lt;BeginProcessRequest&gt;b__5()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass1.&lt;MakeVoidDelegate&gt;b__0()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass8`1.&lt;BeginSynchronous&gt;b__7(IAsyncResult _)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End[TResult](IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.End(IAsyncResult asyncResult, Object tag)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClasse.&lt;EndProcessRequest&gt;b__d()&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.&lt;GetCallInAppTrustThunk&gt;b__0(Action f)&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="mehta.m@advanced-india.com" time="2013-12-23T04:31:19.0134674Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.5&#xD;&#xA;HTTP_COOKIE:ASP.NET_SessionId=sj0hmua4idr3iuedb5dvu4q5; MyAuthCookie=A29A8A6D6DFE5A91D23E83BC4C713982F95EDF3512DE712CD47FB6E010E6BE1FCF73BEC151CBFC683954223C66A7DAD7F7FE4C88822EA869E06A0C6C7574B5AA85DC55B57CF1DC3209E3DA4B81ECEBE85C267404C6DE4A3592FEF649F0D0E47299D159CE4E1E0F31BEAB1D7BA3F490CA14C8810A9571F8F4E7BB22980E76D59BEAF946BC5C184946B2AA7DC3FFA2D930&#xD;&#xA;HTTP_HOST:localhost:53596&#xD;&#xA;HTTP_REFERER:http://localhost:53596/Report/Report&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-US,en;q=0.5&#xD;&#xA;Cookie: ASP.NET_SessionId=sj0hmua4idr3iuedb5dvu4q5; MyAuthCookie=A29A8A6D6DFE5A91D23E83BC4C713982F95EDF3512DE712CD47FB6E010E6BE1FCF73BEC151CBFC683954223C66A7DAD7F7FE4C88822EA869E06A0C6C7574B5AA85DC55B57CF1DC3209E3DA4B81ECEBE85C267404C6DE4A3592FEF649F0D0E47299D159CE4E1E0F31BEAB1D7BA3F490CA14C8810A9571F8F4E7BB22980E76D59BEAF946BC5C184946B2AA7DC3FFA2D930&#xD;&#xA;Host: localhost:53596&#xD;&#xA;Referer: http://localhost:53596/Report/Report&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="E:\Projects\SMSPortal\SMSAdminPortal\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="mehta.m@advanced-india.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="MIHIRMEHTA\AI" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="mehta.m@advanced-india.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/Report/GetFinanceReportForExport" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="E:\Projects\SMSPortal\SMSAdminPortal\Report\GetFinanceReportForExport" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="sStartDate=01/12/2013&amp;sEndDate=14/12/2013&amp;iBillingMethodID=0" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/Report/GetFinanceReportForExport" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="53596" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/Report/GetFinanceReportForExport" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.5" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="ASP.NET_SessionId=sj0hmua4idr3iuedb5dvu4q5; MyAuthCookie=A29A8A6D6DFE5A91D23E83BC4C713982F95EDF3512DE712CD47FB6E010E6BE1FCF73BEC151CBFC683954223C66A7DAD7F7FE4C88822EA869E06A0C6C7574B5AA85DC55B57CF1DC3209E3DA4B81ECEBE85C267404C6DE4A3592FEF649F0D0E47299D159CE4E1E0F31BEAB1D7BA3F490CA14C8810A9571F8F4E7BB22980E76D59BEAF946BC5C184946B2AA7DC3FFA2D930" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:53596" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:53596/Report/Report" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:26.0) Gecko/20100101 Firefox/26.0" />
+    </item>
+  </serverVariables>
+  <queryString>
+    <item name="sStartDate">
+      <value string="01/12/2013" />
+    </item>
+    <item name="sEndDate">
+      <value string="14/12/2013" />
+    </item>
+    <item name="iBillingMethodID">
+      <value string="0" />
+    </item>
+  </queryString>
+  <cookies>
+    <item name="ASP.NET_SessionId">
+      <value string="sj0hmua4idr3iuedb5dvu4q5" />
+    </item>
+    <item name="MyAuthCookie">
+      <value string="A29A8A6D6DFE5A91D23E83BC4C713982F95EDF3512DE712CD47FB6E010E6BE1FCF73BEC151CBFC683954223C66A7DAD7F7FE4C88822EA869E06A0C6C7574B5AA85DC55B57CF1DC3209E3DA4B81ECEBE85C267404C6DE4A3592FEF649F0D0E47299D159CE4E1E0F31BEAB1D7BA3F490CA14C8810A9571F8F4E7BB22980E76D59BEAF946BC5C184946B2AA7DC3FFA2D930" />
+    </item>
+  </cookies>
+</error>

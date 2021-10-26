@@ -1,0 +1,40 @@
+﻿
+   .buttons
+{
+    /*height: auto;
+    font: 76%/150% "Lucida Grande" , Geneva, Verdana, Arial, Helvetica, sans-serif;
+    width: 10em;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #660066;
+    color: #FFFFFF;
+    text-decoration: none;*/
+    text-align: left;
+    padding-top: 10px;
+    font-family: Arial;
+    background-color: #55274f;
+    font-size: medium;
+    color: #FFFFFF;
+  
+}
+   /*Button Arrow Styles*/
+.btnOrgDetails
+{
+    visibility:hidden;
+}
+.btnSetupPrice
+{
+    visibility:hidden;
+}
+.btnManageOrgUser
+{
+    visibility:hidden;
+}
+.btnMicroAccountDetails
+{
+    visibility:hidden;
+    
+}
+
+
+

@@ -1,0 +1,162 @@
+﻿<error errorId="e74b4b08-0fd7-4724-95cd-22ccf3d856d3" application="/" host="MIHIRMEHTA" type="System.Web.HttpException" message="File does not exist." source="System.Web" detail="System.Web.HttpException (0x80004005): File does not exist.&#xD;&#xA;   at System.Web.StaticFileHandler.GetFileInfo(String virtualPathWithPathInfo, String physicalPath, HttpResponse response)&#xD;&#xA;   at System.Web.StaticFileHandler.ProcessRequestInternal(HttpContext context, String overrideVirtualPath)&#xD;&#xA;   at System.Web.DefaultHttpHandler.BeginProcessRequest(HttpContext context, AsyncCallback callback, Object state)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="mehta.m@advanced-india.com" time="2014-07-01T11:42:50.6372079Z" statusCode="404">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip,deflate,sdch&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.8&#xD;&#xA;HTTP_COOKIE:ASP.NET_SessionId=hkbpyogyvsx5hnm0crkyqmbq; MyAuthCookie=15E2C7B2341A655852FD480FD6C35AD2F31862FE0CDBD83B5774B624ED92EFA61E93F02C328FEDB6B4188E5E42DA9F45483406042BE597A0AB28A3E7DADD6BD43C4F776FBC90644082CDF481A88CEB0590FDCFA3A6AC4CED18B189C1D57651EEE0192141DA5759B674036CC9B96F91F7C90779B4E7ED280D8CC82B566806936F6DDA4FBD110829565554812E891ED86E&#xD;&#xA;HTTP_HOST:localhost:53596&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Connection: keep-alive&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip,deflate,sdch&#xD;&#xA;Accept-Language: en-US,en;q=0.8&#xD;&#xA;Cookie: ASP.NET_SessionId=hkbpyogyvsx5hnm0crkyqmbq; MyAuthCookie=15E2C7B2341A655852FD480FD6C35AD2F31862FE0CDBD83B5774B624ED92EFA61E93F02C328FEDB6B4188E5E42DA9F45483406042BE597A0AB28A3E7DADD6BD43C4F776FBC90644082CDF481A88CEB0590FDCFA3A6AC4CED18B189C1D57651EEE0192141DA5759B674036CC9B96F91F7C90779B4E7ED280D8CC82B566806936F6DDA4FBD110829565554812E891ED86E&#xD;&#xA;Host: localhost:53596&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="E:\Projects\SMSPortal\SMSAdminPortal\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="mehta.m@advanced-india.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="MIHIRMEHTA\Administrator" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="mehta.m@advanced-india.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="0" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/favicon.ico" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="E:\Projects\SMSPortal\SMSAdminPortal\favicon.ico" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="GET" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/favicon.ico" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="53596" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/favicon.ico" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip,deflate,sdch" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.8" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="ASP.NET_SessionId=hkbpyogyvsx5hnm0crkyqmbq; MyAuthCookie=15E2C7B2341A655852FD480FD6C35AD2F31862FE0CDBD83B5774B624ED92EFA61E93F02C328FEDB6B4188E5E42DA9F45483406042BE597A0AB28A3E7DADD6BD43C4F776FBC90644082CDF481A88CEB0590FDCFA3A6AC4CED18B189C1D57651EEE0192141DA5759B674036CC9B96F91F7C90779B4E7ED280D8CC82B566806936F6DDA4FBD110829565554812E891ED86E" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:53596" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.153 Safari/537.36" />
+    </item>
+  </serverVariables>
+  <cookies>
+    <item name="ASP.NET_SessionId">
+      <value string="hkbpyogyvsx5hnm0crkyqmbq" />
+    </item>
+    <item name="MyAuthCookie">
+      <value string="15E2C7B2341A655852FD480FD6C35AD2F31862FE0CDBD83B5774B624ED92EFA61E93F02C328FEDB6B4188E5E42DA9F45483406042BE597A0AB28A3E7DADD6BD43C4F776FBC90644082CDF481A88CEB0590FDCFA3A6AC4CED18B189C1D57651EEE0192141DA5759B674036CC9B96F91F7C90779B4E7ED280D8CC82B566806936F6DDA4FBD110829565554812E891ED86E" />
+    </item>
+  </cookies>
+</error>

@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>
+        <asp:ContentPlaceHolder ID="TitleContent" runat="server" />
+    </title>
+
+    <link rel="stylesheet" type="text/css" media="screen" href="<%= ResolveUrl("~/Content/themes/base/jquery-ui-1.10.3.custom.css")%>" />
+    <link rel="stylesheet" type="text/css" media="screen" href="<%= ResolveUrl("~/Content/themes/base/ui.jqgrid.css")%>" />
+
+    <link href="<%= ResolveUrl("~/Content/CSS/styles.css")%>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/CSS/Home.css")%>" rel="stylesheet" />
+    <link href="<%= ResolveUrl("~/Content/CSS/LoadingModal.css")%>" rel="stylesheet" />
+    
+    <script src="<%= ResolveUrl("~/Scripts/jquery-1.9.1.js")%>"></script>
+    <script src="<%= ResolveUrl("~/Scripts/jquery-ui-1.10.3.custom.min.js")%>"></script>
+    <script src="<%= ResolveUrl("~/Scripts/jquery.jqGrid.min.js")%>"></script>
+    <script src="<%= ResolveUrl("~/Scripts/grid.locale-en.js")%>"></script>
+
+    <script src="<%= ResolveUrl("~/Scripts/SMSPortalCommon.js")%>"></script>
+    <script src="<%= ResolveUrl("~/Scripts/Validation_userDefined.js")%>"></script>
+</head>
+<body style="background-image:none;">
+    <div id="main">
+        <div>            
+            <img id="u2_img" src="<%= ResolveUrl("~/Content/Images/u0.gif")%>" />
+            <asp:ContentPlaceHolder ID="MainContent" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div id="u4">            
+            <img id="u4_img" src="<%= ResolveUrl("~/Content/Images/u4.png")%>" />
+            <div id="u5">
+                SMS Portal
+            </div>
+        </div>
+        <div id="u6">            
+            <img id="u6_img" src="<%= ResolveUrl("~/Content/Images/u6.png")%>" />
+        </div>
+        <div id="u8">
+            <div id="u9" style="font-size: 32px;">
+                staffplan
+            </div>
+        </div>
+        <div id="u10">            
+            <img id="u10_img" src="<%= ResolveUrl("~/Content/Images/u10.png")%>" />
+        </div>
+        <div id="loginFooter">
+            SMS / Micropayment management portal v1.0R2
+        </div>
+    </div>
+</body>
+</html>

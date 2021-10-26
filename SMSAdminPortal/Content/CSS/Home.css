@@ -1,0 +1,98 @@
+﻿body
+{
+   
+}
+#Header
+{
+    width: 1000px;
+    height: 50px;
+    background-color: #660066;
+    font-size: x-large;
+    font-family: 'Calibri Light';
+    color: #FFFFFF;
+}
+#Menu
+{
+    width: 1000px;
+    height: 750px;
+    background-color: #FCEBFC;
+    font-family: 'Calibri Light';
+}
+
+
+#MenuButtons
+{
+    text-decoration: none;
+    width: 100px;
+    height: 80px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: Arial;
+    background-color: #660066;
+    font-size: medium;
+    color: #FFFFFF;
+}
+
+/*.ui-jqgrid .ui-widget-header
+{  
+    background-color:  #FCEBFC;
+    color: #660066;
+    font-size:large;
+    font-family:'Times New Roman';
+}
+.ui-jqdialog .ui-jqconfirm
+{
+    background-color: #660066;
+    color: #FFFFFF;
+}
+.ui-draggable .ui-dialog-titlebar
+{
+    background-image: url(images/my-header.png);
+    background-color: #660066;
+    color: #FFFFFF;
+}
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column 
+{
+    background-color: #660066;
+    color: #FFFFFF;
+}
+.ui-jqgrid .ui-jqgrid-resize-mark
+{
+    background-color: #660066;
+    color: #FFFFFF;
+}
+
+.ui-jqdialog-content select.FormElement.searchtitle
+ {
+    background-color: #660066;
+    color: #FFFFFF;
+}*/
+.ui-jqgrid .ui-jqgrid-pager .navtable .ui-pg-div,
+.ui-jqgrid .ui-jqgrid-toppager .navtable .ui-pg-div {
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column
+{
+	background: #55274f 50% 50% repeat-x;
+	color: #FFFFFF;
+}
+
+.ui-jqgrid tr.jqgrow td 
+{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+/*sets cell border style on grids hover*/
+.ui-jqgrid tr.ui-row-ltr td
+{
+	 border-top-color: inherit;
+    border-top-style: solid;
+    border-top-width: 1px;
+
+	border-left-color: inherit;
+    border-left-style: solid;
+    border-left-width: 1px;
+}

@@ -1,0 +1,200 @@
+﻿<error errorId="6da7fb55-370b-4079-a912-58a3418d9f67" application="/" host="MIHIRMEHTA" type="System.Net.Mail.SmtpException" message="The operation has timed out." source="System" detail="System.Net.Mail.SmtpException: The operation has timed out.&#xD;&#xA;   at System.Net.Mail.SmtpClient.Send(MailMessage message)&#xD;&#xA;   at SMSAdminPortal.Commons.PortalConstants.SendPasswordByEmail(String strPassword, String strEmail) in e:\Projects\SMSPortal\SMSAdminPortal\Commons\Common.cs:line 128&#xD;&#xA;   at SMSAdminPortal.Controllers.ManageManagementUser.ManagementUserController.AddManagementUser(String strForename, String strSurname, String strContactEmailAddress, Int32 iAccessLevelID, String strContactPhonenumber) in e:\Projects\SMSPortal\SMSAdminPortal\Controllers\ManagementUser\ManagementUserController.cs:line 121&#xD;&#xA;   at lambda_method(Closure , ControllerBase , Object[] )&#xD;&#xA;   at System.Web.Mvc.ActionMethodDispatcher.Execute(ControllerBase controller, Object[] parameters)&#xD;&#xA;   at System.Web.Mvc.ReflectedActionDescriptor.Execute(ControllerContext controllerContext, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethod(ControllerContext controllerContext, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass15.&lt;InvokeActionMethodWithFilters&gt;b__12()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodFilter(IActionFilter filter, ActionExecutingContext preContext, Func`1 continuation)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.&lt;&gt;c__DisplayClass15.&lt;&gt;c__DisplayClass17.&lt;InvokeActionMethodWithFilters&gt;b__14()&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters)&#xD;&#xA;   at System.Web.Mvc.ControllerActionInvoker.InvokeAction(ControllerContext controllerContext, String actionName)&#xD;&#xA;   at System.Web.Mvc.Controller.ExecuteCore()&#xD;&#xA;   at System.Web.Mvc.ControllerBase.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.ControllerBase.System.Web.Mvc.IController.Execute(RequestContext requestContext)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClass6.&lt;&gt;c__DisplayClassb.&lt;BeginProcessRequest&gt;b__5()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass1.&lt;MakeVoidDelegate&gt;b__0()&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.&lt;&gt;c__DisplayClass8`1.&lt;BeginSynchronous&gt;b__7(IAsyncResult _)&#xD;&#xA;   at System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.End()&#xD;&#xA;   at System.Web.Mvc.MvcHandler.&lt;&gt;c__DisplayClasse.&lt;EndProcessRequest&gt;b__d()&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.&lt;GetCallInAppTrustThunk&gt;b__0(Action f)&#xD;&#xA;   at System.Web.Mvc.SecurityUtil.ProcessInApplicationTrust(Action action)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.EndProcessRequest(IAsyncResult asyncResult)&#xD;&#xA;   at System.Web.Mvc.MvcHandler.System.Web.IHttpAsyncHandler.EndProcessRequest(IAsyncResult result)&#xD;&#xA;   at System.Web.HttpApplication.CallHandlerExecutionStep.System.Web.HttpApplication.IExecutionStep.Execute()&#xD;&#xA;   at System.Web.HttpApplication.ExecuteStep(IExecutionStep step, Boolean&amp; completedSynchronously)" user="mehta.m@advanced-india.com" time="2014-04-07T13:44:44.7312954Z">
+  <serverVariables>
+    <item name="ALL_HTTP">
+      <value string="HTTP_CACHE_CONTROL:no-cache&#xD;&#xA;HTTP_CONNECTION:keep-alive&#xD;&#xA;HTTP_PRAGMA:no-cache&#xD;&#xA;HTTP_CONTENT_LENGTH:109&#xD;&#xA;HTTP_CONTENT_TYPE:application/x-www-form-urlencoded; charset=UTF-8&#xD;&#xA;HTTP_ACCEPT:*/*&#xD;&#xA;HTTP_ACCEPT_ENCODING:gzip, deflate&#xD;&#xA;HTTP_ACCEPT_LANGUAGE:en-US,en;q=0.5&#xD;&#xA;HTTP_COOKIE:ASP.NET_SessionId=qe21mamdvrqth1hp01j0rpoh; .ASPXAUTH=37083EC1499A1F803C741BF6E700CE25B2E8A103E537E7F7241ACEA55DE6C01AE7E6BEFE91C2F93644A9A78AB2DCD98275D3201C4E05EF103DB094CC1B55412C8AE73B349CDDC487C9AF4DF0B3504E05CBF45D02E722A2BA06A8F48940196A89536D681C0DA54AF82E57D3463D92B2CF5E797B569AB7CE8CE53FA4F38CE1F67C15E4488733EBDCCAB60BE658298CA16F; MyAuthCookie=1ED49820048D05A4FA8F3C0EE00D6322FF9473C29DABEA8ACDEEB802E7372C6A0E0F26C6DF4995F830758F087CDEA70472D8584C40C17CFF256DF715F6771EBD8341266F5F32F988ED703E7114AB4679DC4396059019AE67C81A58031400FE067CBEBA87DE291AF3B683DD7CF817815A0D9BC37A7D8415B236A2C81E7E99346CE53AE8FD30B7BF3BDBBFC3E55D89A2F1&#xD;&#xA;HTTP_HOST:localhost:53596&#xD;&#xA;HTTP_REFERER:http://localhost:53596/ManagementUser/ManageManagementUsers&#xD;&#xA;HTTP_USER_AGENT:Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0&#xD;&#xA;HTTP_X_REQUESTED_WITH:XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="ALL_RAW">
+      <value string="Cache-Control: no-cache&#xD;&#xA;Connection: keep-alive&#xD;&#xA;Pragma: no-cache&#xD;&#xA;Content-Length: 109&#xD;&#xA;Content-Type: application/x-www-form-urlencoded; charset=UTF-8&#xD;&#xA;Accept: */*&#xD;&#xA;Accept-Encoding: gzip, deflate&#xD;&#xA;Accept-Language: en-US,en;q=0.5&#xD;&#xA;Cookie: ASP.NET_SessionId=qe21mamdvrqth1hp01j0rpoh; .ASPXAUTH=37083EC1499A1F803C741BF6E700CE25B2E8A103E537E7F7241ACEA55DE6C01AE7E6BEFE91C2F93644A9A78AB2DCD98275D3201C4E05EF103DB094CC1B55412C8AE73B349CDDC487C9AF4DF0B3504E05CBF45D02E722A2BA06A8F48940196A89536D681C0DA54AF82E57D3463D92B2CF5E797B569AB7CE8CE53FA4F38CE1F67C15E4488733EBDCCAB60BE658298CA16F; MyAuthCookie=1ED49820048D05A4FA8F3C0EE00D6322FF9473C29DABEA8ACDEEB802E7372C6A0E0F26C6DF4995F830758F087CDEA70472D8584C40C17CFF256DF715F6771EBD8341266F5F32F988ED703E7114AB4679DC4396059019AE67C81A58031400FE067CBEBA87DE291AF3B683DD7CF817815A0D9BC37A7D8415B236A2C81E7E99346CE53AE8FD30B7BF3BDBBFC3E55D89A2F1&#xD;&#xA;Host: localhost:53596&#xD;&#xA;Referer: http://localhost:53596/ManagementUser/ManageManagementUsers&#xD;&#xA;User-Agent: Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0&#xD;&#xA;X-Requested-With: XMLHttpRequest&#xD;&#xA;" />
+    </item>
+    <item name="APPL_MD_PATH">
+      <value string="" />
+    </item>
+    <item name="APPL_PHYSICAL_PATH">
+      <value string="E:\Projects\SMSPortal\SMSAdminPortal\" />
+    </item>
+    <item name="AUTH_TYPE">
+      <value string="" />
+    </item>
+    <item name="AUTH_USER">
+      <value string="mehta.m@advanced-india.com" />
+    </item>
+    <item name="AUTH_PASSWORD">
+      <value string="*****" />
+    </item>
+    <item name="LOGON_USER">
+      <value string="MIHIRMEHTA\Administrator" />
+    </item>
+    <item name="REMOTE_USER">
+      <value string="mehta.m@advanced-india.com" />
+    </item>
+    <item name="CERT_COOKIE">
+      <value string="" />
+    </item>
+    <item name="CERT_FLAGS">
+      <value string="" />
+    </item>
+    <item name="CERT_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="CERT_SERIALNUMBER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="CERT_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CERT_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="CONTENT_LENGTH">
+      <value string="109" />
+    </item>
+    <item name="CONTENT_TYPE">
+      <value string="application/x-www-form-urlencoded; charset=UTF-8" />
+    </item>
+    <item name="GATEWAY_INTERFACE">
+      <value string="" />
+    </item>
+    <item name="HTTPS">
+      <value string="" />
+    </item>
+    <item name="HTTPS_KEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SECRETKEYSIZE">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_ISSUER">
+      <value string="" />
+    </item>
+    <item name="HTTPS_SERVER_SUBJECT">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_ID">
+      <value string="" />
+    </item>
+    <item name="INSTANCE_META_PATH">
+      <value string="" />
+    </item>
+    <item name="LOCAL_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="PATH_INFO">
+      <value string="/ManagementUser/AddManagementUser" />
+    </item>
+    <item name="PATH_TRANSLATED">
+      <value string="E:\Projects\SMSPortal\SMSAdminPortal\ManagementUser\AddManagementUser" />
+    </item>
+    <item name="QUERY_STRING">
+      <value string="" />
+    </item>
+    <item name="REMOTE_ADDR">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_HOST">
+      <value string="::1" />
+    </item>
+    <item name="REMOTE_PORT">
+      <value string="" />
+    </item>
+    <item name="REQUEST_METHOD">
+      <value string="POST" />
+    </item>
+    <item name="SCRIPT_NAME">
+      <value string="/ManagementUser/AddManagementUser" />
+    </item>
+    <item name="SERVER_NAME">
+      <value string="localhost" />
+    </item>
+    <item name="SERVER_PORT">
+      <value string="53596" />
+    </item>
+    <item name="SERVER_PORT_SECURE">
+      <value string="0" />
+    </item>
+    <item name="SERVER_PROTOCOL">
+      <value string="HTTP/1.1" />
+    </item>
+    <item name="SERVER_SOFTWARE">
+      <value string="" />
+    </item>
+    <item name="URL">
+      <value string="/ManagementUser/AddManagementUser" />
+    </item>
+    <item name="HTTP_CACHE_CONTROL">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONNECTION">
+      <value string="keep-alive" />
+    </item>
+    <item name="HTTP_PRAGMA">
+      <value string="no-cache" />
+    </item>
+    <item name="HTTP_CONTENT_LENGTH">
+      <value string="109" />
+    </item>
+    <item name="HTTP_CONTENT_TYPE">
+      <value string="application/x-www-form-urlencoded; charset=UTF-8" />
+    </item>
+    <item name="HTTP_ACCEPT">
+      <value string="*/*" />
+    </item>
+    <item name="HTTP_ACCEPT_ENCODING">
+      <value string="gzip, deflate" />
+    </item>
+    <item name="HTTP_ACCEPT_LANGUAGE">
+      <value string="en-US,en;q=0.5" />
+    </item>
+    <item name="HTTP_COOKIE">
+      <value string="ASP.NET_SessionId=qe21mamdvrqth1hp01j0rpoh; .ASPXAUTH=37083EC1499A1F803C741BF6E700CE25B2E8A103E537E7F7241ACEA55DE6C01AE7E6BEFE91C2F93644A9A78AB2DCD98275D3201C4E05EF103DB094CC1B55412C8AE73B349CDDC487C9AF4DF0B3504E05CBF45D02E722A2BA06A8F48940196A89536D681C0DA54AF82E57D3463D92B2CF5E797B569AB7CE8CE53FA4F38CE1F67C15E4488733EBDCCAB60BE658298CA16F; MyAuthCookie=1ED49820048D05A4FA8F3C0EE00D6322FF9473C29DABEA8ACDEEB802E7372C6A0E0F26C6DF4995F830758F087CDEA70472D8584C40C17CFF256DF715F6771EBD8341266F5F32F988ED703E7114AB4679DC4396059019AE67C81A58031400FE067CBEBA87DE291AF3B683DD7CF817815A0D9BC37A7D8415B236A2C81E7E99346CE53AE8FD30B7BF3BDBBFC3E55D89A2F1" />
+    </item>
+    <item name="HTTP_HOST">
+      <value string="localhost:53596" />
+    </item>
+    <item name="HTTP_REFERER">
+      <value string="http://localhost:53596/ManagementUser/ManageManagementUsers" />
+    </item>
+    <item name="HTTP_USER_AGENT">
+      <value string="Mozilla/5.0 (Windows NT 6.1; WOW64; rv:28.0) Gecko/20100101 Firefox/28.0" />
+    </item>
+    <item name="HTTP_X_REQUESTED_WITH">
+      <value string="XMLHttpRequest" />
+    </item>
+  </serverVariables>
+  <form>
+    <item name="strForename">
+      <value string="aaa" />
+    </item>
+    <item name="strSurname">
+      <value string="bbb" />
+    </item>
+    <item name="strContactEmailAddress">
+      <value string="aabb@test.com" />
+    </item>
+    <item name="iAccessLevelID">
+      <value string="1" />
+    </item>
+    <item name="strContactPhonenumber">
+      <value string="" />
+    </item>
+  </form>
+  <cookies>
+    <item name="ASP.NET_SessionId">
+      <value string="qe21mamdvrqth1hp01j0rpoh" />
+    </item>
+    <item name=".ASPXAUTH">
+      <value string="37083EC1499A1F803C741BF6E700CE25B2E8A103E537E7F7241ACEA55DE6C01AE7E6BEFE91C2F93644A9A78AB2DCD98275D3201C4E05EF103DB094CC1B55412C8AE73B349CDDC487C9AF4DF0B3504E05CBF45D02E722A2BA06A8F48940196A89536D681C0DA54AF82E57D3463D92B2CF5E797B569AB7CE8CE53FA4F38CE1F67C15E4488733EBDCCAB60BE658298CA16F" />
+    </item>
+    <item name="MyAuthCookie">
+      <value string="1ED49820048D05A4FA8F3C0EE00D6322FF9473C29DABEA8ACDEEB802E7372C6A0E0F26C6DF4995F830758F087CDEA70472D8584C40C17CFF256DF715F6771EBD8341266F5F32F988ED703E7114AB4679DC4396059019AE67C81A58031400FE067CBEBA87DE291AF3B683DD7CF817815A0D9BC37A7D8415B236A2C81E7E99346CE53AE8FD30B7BF3BDBBFC3E55D89A2F1" />
+    </item>
+  </cookies>
+</error>

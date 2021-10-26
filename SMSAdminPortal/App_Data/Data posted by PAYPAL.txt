@@ -1,0 +1,100 @@
+﻿Sample IPN returned by PayPal:
+----------------------------------------------------------------------------------------------------------------------------------
+mc_gross=1.00&protection_eligibility=Eligible&address_status=confirmed&payer_id=UM67Z69XTZDR2&tax=0.00&address_street=1+Main
++Terrace&payment_date=22%3A02%3A45+Nov+07%2C+2013+PST&payment_status=Completed&charset=windows-1252&address_zip=W12+4LQ&first_name=New
++Buyer&mc_fee=0.34&address_country_code=GB&address_name=New+Buyer+Mehta&notify_version=3.7&custom=10&payer_status=verified&business=rekha.c%40advanced-
+india.com&address_country=United+Kingdom&address_city=Wolverhampton&quantity=1&verify_sign=Ac-IQyve3Uz8m2cv9gdAEu0ppaAMAa1WQQEkXWQLYoxRGsMtLNwPE-cj&payer_email=mihir
+%40ai.com&txn_id=1RV6383282072294F&payment_type=instant&last_name=Mehta&address_state=West+Midlands&receiver_email=rekha.c%40advanced-
+india.com&payment_fee=0.34&receiver_id=LETRQYR55LRVS&txn_type=web_accept&item_name=Micropayment+Account
++Topup&mc_currency=USD&item_number=&residence_country=GB&test_ipn=1&handling_amount=0.00&transaction_subject=10&payment_gross=1.00&shipping=0.00&ipn_track_id=525771c35
+64d6
+
+----------------------------------------------------------------------------------------------------------------------------------
+
+
+Sample PDT returned by PayPal:
+----------------------------------------------------------------------------------------------------------------------------------
+Request=&cmd=_notify-synch&at=F6YwuJJp85e86mvIU4BYaNPvqNZBbGseGa1Sj_-VSL8yoDyw_huhJ6SEfvu&tx=81127119KM498740R
+
+Response=SUCCESS
+mc_gross=1.00
+protection_eligibility=Eligible
+address_status=confirmed
+payer_id=UM67Z69XTZDR2
+tax=0.00
+address_street=1+Main+Terrace
+payment_date=04%3A40%3A28+Nov+15%2C+2013+PST
+payment_status=Completed
+charset=windows-1252
+address_zip=W12+4LQ
+first_name=New+Buyer
+mc_fee=0.34
+address_country_code=GB
+address_name=New+Buyer+Mehta
+custom=1
+payer_status=verified
+business=rekha.c%40advanced-india.com
+address_country=United+Kingdom
+address_city=Wolverhampton
+quantity=1
+payer_email=mihir%40ai.com
+txn_id=81127119KM498740R
+payment_type=instant
+last_name=Mehta
+address_state=West+Midlands
+receiver_email=rekha.c%40advanced-india.com
+payment_fee=0.34
+receiver_id=LETRQYR55LRVS
+txn_type=web_accept
+item_name=Micropayment+Account+Topup
+mc_currency=USD
+item_number=
+residence_country=GB
+handling_amount=0.00
+transaction_subject=1
+payment_gross=1.00
+shipping=0.00
+
+
+
+----------------------------------------------------------------------------------------------------------------------------------
+ 
+//Thank you for your payment. Your transaction has been completed, and a receipt for your purchase has been emailed to you. You may log into your account at www.sandbox.paypal.com/us to view details of this transaction.
+
+Local Machine on Live IP
+------------------------
+<add key="PayPal_IPNNotificationURL" value="http://203.88.149.76:82/Topup/IPNListener"/>
+<add key="PayPal_CancelURL" value="http://203.88.149.76:82/Topup/PaymentCancelled"/>
+<add key="PayPal_ReturnURL" value="http://203.88.149.76:82/Topup/PaymentSuccess"/>
+------------------------------------------------------------------------------------------
+
+
+
+Remote Machine: 192.168.31.62
+------------------------------
+<add key="PayPal_IPNNotificationURL" value="http://203.88.149.79:82/Topup/IPNListener"/>
+<add key="PayPal_CancelURL" value="http://203.88.149.79:82/Topup/PaymentCancelled"/>
+<add key="PayPal_ReturnURL" value="http://203.88.149.79:82/Topup/PaymentSuccess"/>
+------------------------------------------------------------------------------------------
+
+Sandbox Paypal Account Details:
+
+UserID  : mihirnmehta@gmail.com	
+Password: mihir_m13
+
+UserID  : rekha.c@advanced-india.com (Currently this is active and has transaction entries)
+Password: mihir_m13
+
+https://www.sandbox.paypal.com/webapps/customerprofile/summary.view
+
+Go to Profile -> My Selling Tools -> Website Preferences
+
+	- Set 'Auto Return' = ON
+	- Set the 'Return URL' to a live URL of your website (i.e. <URL>/Controller/ActionMethod)
+	- Set the 'Payment Data Transfer' = ON
+	- Note the 'Identity Token' ( To be stored in the web.config and sent with each payment)
+
+Go to Profile -> My Selling Tools -> Instant Payment Notification
+
+	- Set the 'Notification URL' to the URL listenting to the Paypal Notification.
+	- Select the 'Receive IPN Messages(Enabled) option.

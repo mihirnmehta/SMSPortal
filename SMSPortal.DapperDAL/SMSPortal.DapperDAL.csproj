@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FF4C5F7C-F53E-4D3D-A9EE-8FA3ED9706E4}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SMSPortal.DapperDAL</RootNamespace>
+    <AssemblyName>SMSPortal.DapperDAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Dapper">
+      <HintPath>..\packages\Dapper.1.13\lib\net45\Dapper.dll</HintPath>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccountsDAL.cs" />
+    <Compile Include="CommonFunctions.cs" />
+    <Compile Include="GlobalPriceListDAL.cs" />
+    <Compile Include="InvoiceDAL.cs" />
+    <Compile Include="ManagementUserDAL.cs" />
+    <Compile Include="Organisation\OrganisationUserDAL.cs" />
+    <Compile Include="Organisation\CustomPriceListDAL.cs" />
+    <Compile Include="Organisation\MPAccountDAL.cs" />
+    <Compile Include="Organisation\OrganisationDAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportDAL.cs" />
+    <Compile Include="TopupDAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SMSPortal.Models\SMSPortal.Models.csproj">
+      <Project>{a7b36909-c832-49d3-a737-36f61873524d}</Project>
+      <Name>SMSPortal.Models</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SMSPortal.Repository\SMSPortal.Repository.csproj">
+      <Project>{6e7386a7-15ef-4121-b4c9-b25f0b009d65}</Project>
+      <Name>SMSPortal.Repository</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Stored Procedures\usp_GetFinanceRptForAdminPortal.sql" />
+    <Content Include="Stored Procedures\usp_GetFinanceRptForExport.sql" />
+    <Content Include="Stored Procedures\usp_GetSetupOrganisations.sql" />
+    <Content Include="Stored Procedures\usp_GetUsagePerDayRptForAdminPortal.sql" />
+    <Content Include="Stored Procedures\usp_GetUsagePerDayRptForExport.sql" />
+    <Content Include="Stored Procedures\usp_GetUsageRptForExport.sql" />
+    <Content Include="Stored Procedures\usp_GetUsageRptForUserPortal.sql" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
