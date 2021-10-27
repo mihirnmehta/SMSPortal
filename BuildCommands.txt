@@ -1,2 +1,3 @@
 msbuild ./SMSAdminPortal/SMSAdminPortal.csproj /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
 msbuild SMSPortal.sln /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
+msbuild -t:restore SMSPortal.sln /p:DeployOnBuild=true /p:PublishProfile=FolderProfile
