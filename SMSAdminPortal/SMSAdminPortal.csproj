@@ -274,6 +274,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SMSPortal.BusinessLogic\SMSPortal.BusinessLogic.csproj">
@@ -296,9 +297,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
-    <None Include="Properties\PublishProfiles\AdminPortalProfile.pubxml" />
-    <None Include="Properties\PublishProfiles\Mihirs Profile.pubxml" />
-    <None Include="Properties\PublishProfiles\SMS Admin Portal.pubxml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
